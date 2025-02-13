@@ -10,8 +10,17 @@ import arcade
 WIDTH = 700
 HEIGHT = 900
 arcade.open_window(WIDTH, HEIGHT, "Python paint n' color.")
-arcade.run()
 
-# -----------Rest of the code-----------
+# Change of background.
+arcade.set_background_color(arcade.color.WHITE)
+
+#Start of drawing.
+arcade.start_render()
+
+# Drawingss
+
+#End for drawing.
+arcade.finish_render()
+
 
 
