@@ -8,8 +8,10 @@ import arcade
 
 # Summoning the window.
 WIDTH = 700
-HEIGHT = 700
+HEIGHT = 900
 arcade.open_window(WIDTH, HEIGHT, "Python paint n' color.")
+arcade.run()
 
+# -----------Rest of the code-----------
 
 
