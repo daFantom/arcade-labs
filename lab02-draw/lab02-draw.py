@@ -7,7 +7,7 @@ Do not repost without permission.
 import arcade
 
 # Summoning the window.
-WIDTH = 700
+WIDTH = 900
 HEIGHT = 900
 arcade.open_window(WIDTH, HEIGHT, "Python paint n' color.")
 
@@ -17,10 +17,22 @@ arcade.set_background_color(arcade.color.WHITE)
 #Start of drawing.
 arcade.start_render()
 
-# Drawingss
+# Drawings
+arcade.draw_circle_filled(450,450,300,color=arcade.color.YELLOW)
+arcade.draw_circle_filled(315,500,50,color=arcade.color.BLACK)
+arcade.draw_circle_filled(585,500,50,color=arcade.color.BLACK)
+arcade.draw_arc_outline(
+    450,
+    370,
+    350,
+    250,
+    color=arcade.color.BLACK,
+    start_angle=180,
+    end_angle=360,
+border_width=20)
 
 #End for drawing.
 arcade.finish_render()
-
+arcade.run()
 
 
