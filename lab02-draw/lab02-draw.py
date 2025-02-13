@@ -33,6 +33,8 @@ border_width=20)
 
 #End for drawing.
 arcade.finish_render()
+
+#Infinite Loop
 arcade.run()
 
 
