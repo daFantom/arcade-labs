@@ -7,10 +7,10 @@ Do not repost without permission.
 import arcade
 # Code
 def draw_smiley_face(x:int,y:int):
-    arcade.draw_circle_filled(450+x,450+y,300,color=arcade.color.YELLOW)
-    arcade.draw_circle_filled(315+x,500+y,50,color=arcade.color.BLACK)
-    arcade.draw_circle_filled(585+x,500+y,50,color=arcade.color.BLACK)
-    arcade.draw_arc_outline(450+x,370+y,350,250,color=arcade.color.BLACK,start_angle=180,end_angle=360,border_width=20)
+    arcade.draw_circle_filled(450,450+y,300,color=arcade.color.YELLOW)
+    arcade.draw_circle_filled(315,500+y,50,color=arcade.color.BLACK)
+    arcade.draw_circle_filled(585,500+y,50,color=arcade.color.BLACK)
+    arcade.draw_arc_outline(450,370+y,350,250,color=arcade.color.BLACK,start_angle=180,end_angle=360,border_width=20)
 
 def main():
     WIDTH = 1200
