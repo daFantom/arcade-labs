@@ -47,7 +47,7 @@ def main():
 
     WIDTH = 1480
     HEIGHT = 900
-    arcade.open_window(WIDTH, HEIGHT, "Python paint n' color.")
+    arcade.open_window(WIDTH, HEIGHT, "Doom Crucible")
 
     # Change of background.
     arcade.set_background_color(arcade.color.BAZAAR)
