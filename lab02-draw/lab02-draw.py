@@ -15,7 +15,7 @@ def draw_smiley_face(x:int,y:int):
 def main():
     WIDTH = 1200
     HEIGHT = 700
-    arcade.open_window(WIDTH,HEIGHT,"Test")
+    arcade.open_window(WIDTH,HEIGHT,"Smiley Face")
     arcade.set_background_color(arcade.color.WHITE)
     arcade.start_render()
     draw_smiley_face(200,100)
